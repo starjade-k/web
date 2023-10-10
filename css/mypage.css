@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.menu {
+  /*width: 800px;*/
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition-timing-function: ease;
+}
+
+.menu a {
+  color: black;
+}
+
+.submenu > li {
+  line-height: 40px;
+  background-color: gainsboro;
+  font-size: 17px;
+}
+
+.submenu {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
+}
+.menu > li:hover {
+  background-color: gainsboro;
+  
+}
+.menu > li {
+	transition: all 1s ease-in-out;
+}
+.menu > li > .submenu{
+	transition: all 1s ease-in-out;
+}
+.menu > li:hover .submenu {
+  height: 150px; /*서브메뉴 li한개의 높이 50*5*/
+ 
+ }
+
+#nav3 {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background-color: gainsboro;
+  font-family: 'Black Han Sans', sans-serif;
+}
+#nav3 > .menu > .my {
+  text-align: left;
+  font-size: 30px;
+  display: block;
+  color: gray;
+}
+#nav3 ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#nav3 > ul {
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+#nav3 > ul > li {
+  font-size: 22px;
+  padding: 0;
+  flex: 1;
+  text-align: left;
+  margin-right: 20px;
+}
+body{
+	font-family: 'Gowun Dodum', sans-serif;
+}
+
+
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

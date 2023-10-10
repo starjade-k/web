@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@charset "UTF-8";
+.top-bar {
+    background-color: #00498c;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:-9px;
+}
+
+.top-text {
+    text-align: center;
+    flex: 1;
+    
+}
+
+.top-text h2 {
+    margin:0px ;
+    padding-right: 120px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 58px;
+    color: white;
+}
+
+.top-img img {
+    max-height: 58px;
+    width: auto;
+    margin-left: 10px;
+}
+.login-design{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top:10%;
+}
+
+.login-hr{
+	 width :100%;
+	 height: 3px;
+	 background-color: black;
+ 
+}
+
+.whole-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin: 0;
+    background-color:white;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.login-container {
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    background-color: #d0d0d0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+    width: 80px;
+}
+
+input {
+	border: none;
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center;
+}
+
+.button-container button {
+    background-color: #d0d0d0;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-container .forgot-password {
+    color:black;
+    background-color: #d0d0d0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    order: -1; 
+}
+.button-container button {
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.label-flex {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+}
+
+.button-container button,
+.button-container .forgot-password {
+    background-color: #d0d0d0;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Gowun Dodum', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover,
+.button-container .forgot-password:hover {
+    background-color: #a0a0a0;
+}
+
+
+

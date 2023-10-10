@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.top-bar {
+    background-color: #00498c;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-text {
+    text-align: center;
+    flex: 1;
+    
+}
+
+.top-text h2 {
+    margin:0px ;
+    padding-right: 120px;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 58px;
+    color: white;
+
+}
+
+.top-img img {
+    max-height: 58px;
+    width: auto;
+    margin-left: 10px;
+}
+
+
+

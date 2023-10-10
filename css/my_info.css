@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*@import url("reset.css");*/
+* {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.email {
+	border: none;
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+.tel {
+	border: none;
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+}
+body{
+	font-family: 'Gowun Dodum', sans-serif;
+}
+button {
+	margin-top: 10px;
+	font-family: 'Gowun Dodum', sans-serif;
+	float: right;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+section.notice * {
+  text-align: center;
+  
+}
+
+.page-title {
+  margin-top: 60px;
+  margin-bottom : 60px;
+}
+.page-title h3 {
+  font-size: 28px;
+  color: #333333;
+  font-weight: 400;
+  text-align: center;
+}
+.board-table {
+  font-size: 13px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.board-table a {
+  color: #333;
+  line-height: 1.4;
+  word-break: break-all;
+  vertical-align: middle;
+}
+
+.board-table th {
+	display: flex;
+  text-align: center;
+}
+.board-table tbody th .edit{
+	display: flex;
+	border: 1px black;
+}
+
+
+.board-table th, .board-table td {
+	display: flex;
+  padding: 14px 0;
+}
+
+.board-table tbody td {
+	display: flex;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.board-table tbody th{
+	display: flex;
+  padding-left: 28px;
+  padding-right: 14px;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+}
+
+.board-table tbody th p{
+  display: none;
+}
+
+/* reset */
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+.blind {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
